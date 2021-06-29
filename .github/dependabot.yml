@@ -1,10 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: "cargo"
-    directory: "/graph-data.rs"
-    schedule:
-      interval: "daily"
   - package-ecosystem: "gitsubmodule"
     directory: "/graph-data.rs"
     schedule:
-      interval: "monthly"
+      interval: "daily"
