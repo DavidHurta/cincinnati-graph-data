@@ -1,6 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "gitsubmodule"
-    directory: "/graph-data.rs"
+    directory: "/"
     schedule:
       interval: "daily"
