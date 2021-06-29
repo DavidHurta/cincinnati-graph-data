@@ -4,8 +4,7 @@ updates:
     directory: "/graph-data.rs"
     schedule:
       interval: "daily"
-    reviewers:
-      - "wking"
-      - "vrutkovs"
-      - "PratikMahajan"
-      - "LalatenduMohanty"
+  - package-ecosystem: "gitsubmodule"
+    directory: "/graph-data.rs"
+    schedule:
+      interval: "monthly"

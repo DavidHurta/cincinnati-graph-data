@@ -1,0 +1,3 @@
+[submodule "graph-data.rs/cincinnati"]
+	path = graph-data.rs/cincinnati
+	url = https://github.com/openshift/cincinnati
