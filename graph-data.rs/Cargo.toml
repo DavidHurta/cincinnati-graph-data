@@ -5,18 +5,20 @@ authors = ["Vadim Rutkovsky <vrutkovs@redhat.com>"]
 edition = "2018"
 
 [dependencies]
-cincinnati = { git = "https://github.com/openshift/cincinnati", rev = "1201519bbb90c30d0ba5da967bdaea546c7db349"}
-actix-http = "=3.0.0-beta.5"
-actix-service = "=2.0.0-beta.5"
-tokio = { version = "1.7", features = [ "fs", "rt-multi-thread" ] }
-serde = "^1.0.126"
-serde_yaml = "^0.8.17"
+cincinnati = { git = "https://github.com/openshift/cincinnati", rev = "a2974db3bf585296dafe23b1f4b734ce7217fa45"}
+actix-http = "=3.3.1"
+actix-service = "=2.0.2"
+tokio = { version = "^1.14", features = [ "fs", "rt-multi-thread" ] }
+serde = "^1.0.163"
+serde_yaml = "^0.8.26"
 anyhow = "1.0"
-regex = "^1.5.4"
+regex = "^1.8.3"
 semver = { version = "^0.11", features = [ "serde" ] }
-toml = "^0.5.8"
+toml = "^0.5.11"
 lazy_static = "^1.4.0"
-url = "^2.2.2"
+url = "^2.3.1"
 reqwest = { version = "^0.11", features = ["gzip"] }
 futures = "^0.3"
 itertools = "^0.10"
+zeroize = "=1.3.0"
+test-case = "^3.1.0"

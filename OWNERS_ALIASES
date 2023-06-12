@@ -2,16 +2,7 @@
 
 aliases:
   cincinnati-graph-data-approvers:
-    - jottofar
-    - sdodson
     - wking
-    - vrutkovs
     - LalatenduMohanty
     - PratikMahajan
-  cincinnati-graph-data-reviewers:
-  release-admins:
-    - crawford
-    - derekwaynecarr
-    - eparis
-    - jwforres
-    - smarterclayton
+    - petr-muller
