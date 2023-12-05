@@ -1,12 +1,12 @@
 {
   "nodes": [
-    {"version": "4.15.0-0.ci.test-2023-12-04-103617-ci-ln-7mdzm9k-latest", "payload": "quay.io/openshift-release-dev/ocp-release@sha256:sha256:89f1b5afff99300766497d38b3375c9dd1837c4a01427cd6a5e20d32d2e5bef3"},
+    {"version": "4.15.0-0.ci.test-2023-12-05-140002-ci-ln-kb356yb-latest", "payload": "quay.io/openshift-release-dev/ocp-release@sha256:sha256:89f1b5afff99300766497d38b3375c9dd1837c4a01427cd6a5e20d32d2e5bef3"},
     {"version": "4.12.22", "payload": "quay.io/openshift-release-dev/ocp-release@sha256:1111111111111111111111111111111111111111111111111111111111111111"},
     {"version": "4.12.23", "payload": "quay.io/openshift-release-dev/ocp-release@sha256:3333333333333333333333333333333333333333333333333333333333333333"}
   ],
   "conditionalEdges": [
     {
-      "edges": [{"from": "4.15.0-0.ci.test-2023-12-04-103617-ci-ln-7mdzm9k-latest", "to": "4.12.22"}],
+      "edges": [{"from": "4.15.0-0.ci.test-2023-12-05-140002-ci-ln-kb356yb-latest", "to": "4.12.22"}],
       "risks": [
         {
           "url": "https://example.com/oldest",
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "edges": [{"from": "4.15.0-0.ci.test-2023-12-04-103617-ci-ln-7mdzm9k-latest", "to": "4.12.23"}],
+      "edges": [{"from": "4.15.0-0.ci.test-2023-12-05-140002-ci-ln-kb356yb-latest", "to": "4.12.23"}],
       "risks": [
         {
           "url": "https://example.com/youngest",
